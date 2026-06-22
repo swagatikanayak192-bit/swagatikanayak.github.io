@@ -1,1 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swagatika Nayak | Data Analyst Portfolio</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f7f9fc;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
+    color:white;
+    padding:80px 10%;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    max-width:650px;
+}
+
+.hero-text h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero-text h3{
+    font-weight:400;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    margin-bottom:25px;
+}
+
+.btn{
+    text-decoration:none;
+    background:white;
+    color:#2563eb;
+    padding:12px 24px;
+    border-radius:8px;
+    font-weight:600;
+    margin-right:10px;
+}
+
+.btn:hover{
+    opacity:.9;
+}
+
+section{
+    padding:70px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:40px;
+    color:#2563eb;
+}
+
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.skill-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.skill-card h3{
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:25px;
+}
+
+.project-card{
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.project-card h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.project-card a{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.timeline{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:600;
+}
+
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+.hero-text h1{
+font-size:2.2rem;
+}
+
+.hero{
+text-align:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<div class="hero-text">
+
+<h1>Swagatika Nayak</h1>
+
+<h3>Aspiring Data Analyst | Python Developer | Data Science Enthusiast</h3>
+
+<p>
+Recent B.Tech Computer Science graduate with a CGPA of 8.44.
+Passionate about Data Analytics, Machine Learning, SQL, Python,
+and transforming data into meaningful business insights.
+</p>
+
+<a href="#projects" class="btn">View Projects</a>
+
+<a href="resume.pdf" class="btn">Download Resume</a>
+
+</div>
+
+</div>
+
+</header>
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+
+<p>
+
+I am a Computer Science graduate seeking opportunities in Data Analytics,
+Data Science, and Business Intelligence.
+
+I completed a Python internship and developed a Climate IQ Prediction
+project using Machine Learning and Streamlit.
+
+I enjoy solving real-world problems using data, visualization,
+statistical analysis, and predictive modeling.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+
+<h3>Programming</h3>
+
+<p>
+Python<br>
+SQL<br>
+Core Java
+</p>
+
+</div>
+
+<div class="skill-card">
+
+<h3>Data Analytics</h3>
+
+<p>
+Data Cleaning<br>
+EDA<br>
+Data Visualization<br>
+Reporting
+</p>
+
+</div>
+
+<div class="skill-card">
+
+<h3>Libraries</h3>
+
+<p>
+Pandas<br>
+NumPy<br>
+Matplotlib<br>
+Seaborn<br>
+Scikit-Learn
+</p>
+
+</div>
+
+<div class="skill-card">
+
+<h3>Tools</h3>
+
+<p>
+Excel<br>
+Power BI<br>
+GitHub<br>
+Jupyter Notebook<br>
+Streamlit
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+
+<h3>Climate IQ Prediction</h3>
+
+<p>
+
+Developed a Machine Learning-based climate prediction system capable of
+analyzing environmental datasets and forecasting climate-related trends.
+
+Built an interactive dashboard using Streamlit for data visualization
+and prediction insights.
+
+</p>
+
+<br>
+
+<p>
+<b>Technologies:</b> Python, Pandas, Scikit-Learn, Streamlit
+</p>
+
+<br>
+
+<a href="#">GitHub Repository</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>Data Analytics Portfolio Project</h3>
+
+<p>
+
+Performed data cleaning, exploratory data analysis, visualization,
+and reporting on real-world datasets to identify trends and insights.
+
+</p>
+
+<br>
+
+<p>
+<b>Technologies:</b> Python, SQL, Excel, Power BI
+</p>
+
+<br>
+
+<a href="#">Project Link</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Internship</h2>
+
+<div class="timeline">
+
+<h3>Python Intern</h3>
+
+<p>
+
+Worked on Python programming, automation concepts,
+data handling, debugging, and practical software development tasks.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Education</h2>
+
+<div class="timeline">
+
+<h3>B.Tech – Computer Science Engineering</h3>
+
+<p>
+CGPA: 8.44
+</p>
+
+<p>
+Graduated Successfully with strong academic foundation in
+Programming, Data Structures, Database Management Systems,
+Machine Learning, and Software Engineering.
+</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact Me</h2>
+
+<div class="contact">
+
+<p>Email: yourmail@gmail.com</p>
+
+<p>
+LinkedIn:
+<a href="#">Your LinkedIn Profile</a>
+</p>
+
+<p>
+GitHub:
+<a href="#">Your GitHub Profile</a>
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Swagatika Nayak | Data Analyst Portfolio</p>
+
+</footer>
+
+</body>
+</html>
